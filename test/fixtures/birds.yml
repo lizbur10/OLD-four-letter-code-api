@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  taxon_order: MyString
+  category: MyString
+  ebird_species_code: MyString
+  common_name: MyString
+  sci_name: MyString
+
+two:
+  taxon_order: MyString
+  category: MyString
+  ebird_species_code: MyString
+  common_name: MyString
+  sci_name: MyString
