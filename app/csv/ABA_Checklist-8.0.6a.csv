@@ -636,6 +636,7 @@ taxon_order,ebird_species_code,common_name,sci_name,four_letter_code,aba_rarity_
 ,,White-headed Woodpecker,Dryobates albolarvatus,WHWO,1
 ,,Arizona Woodpecker,Dryobates arizonae,ARWO,2
 ,,Northern Flicker,Colaptes auratus,NOFL,1
+,,Northern Flicker (Yellow-shafted),Colaptes auratus auratus/luteus,YSFL,
 ,,Gilded Flicker,Colaptes chrysoides,GIFL,2
 ,,Pileated Woodpecker,Dryocopus pileatus,PIWO,1
 ,,Ivory-billed Woodpecker,Campephilus principalis,IBWO,6
@@ -703,6 +704,7 @@ taxon_order,ebird_species_code,common_name,sci_name,four_letter_code,aba_rarity_
 ,,Acadian Flycatcher,Empidonax virescens,ACFL,1
 ,,Alder Flycatcher,Empidonax alnorum,ALFL,1
 ,,Willow Flycatcher,Empidonax traillii,WIFL,1
+,,Alder/Willow Flycatcher (Traill's Flycatcher),Empidonax alnorum/traillii,TRFL,
 ,,Least Flycatcher,Empidonax minimus,LEFL,1
 ,,Hammond's Flycatcher,Empidonax hammondii,HAFL,1
 ,,Gray Flycatcher,Empidonax wrightii,GRFL,1
@@ -897,6 +899,7 @@ taxon_order,ebird_species_code,common_name,sci_name,four_letter_code,aba_rarity_
 ,,Veery,Catharus fuscescens,VEER,1
 ,,Gray-cheeked Thrush,Catharus minimus,GCTH,1
 ,,Bicknell's Thrush,Catharus bicknelli,BITH,2
+,,Gray-cheeked/Bicknell's Thrush,Catharus minimus/bicknelli,GCBT,
 ,,Swainson's Thrush,Catharus ustulatus,SWTH,1
 ,,Hermit Thrush,Catharus guttatus,HETH,1
 ,,Wood Thrush,Hylocichla mustelina,WOTH,1
@@ -1072,6 +1075,7 @@ taxon_order,ebird_species_code,common_name,sci_name,four_letter_code,aba_rarity_
 ,,Fox Sparrow,Passerella iliaca,FOSP,1
 ,,American Tree Sparrow,Spizelloides arborea,ATSP,1
 ,,Dark-eyed Junco,Junco hyemalis,DEJU,1
+,,Dark-eyed Junco (Slate-colored),Junco hyemalis hyemalis/carolinensis,SCJU,
 ,,Yellow-eyed Junco,Junco phaeonotus,YEJU,2
 ,,White-crowned Sparrow,Zonotrichia leucophrys,WCSP,1
 ,,Golden-crowned Sparrow,Zonotrichia atricapilla,GCSP,1
@@ -1136,6 +1140,8 @@ taxon_order,ebird_species_code,common_name,sci_name,four_letter_code,aba_rarity_
 ,,Bachman's Warbler,Vermivora bachmanii,BAWA,6
 ,,Golden-winged Warbler,Vermivora chrysoptera,GWWA,2
 ,,Blue-winged Warbler,Vermivora cyanoptera,BWWA,1
+,,Brewster’s Warbler,Vermivora chrysoptera x cyanoptera (F1 hybrid),BRWA,
+,,Lawrence's Warbler,Vermivora chrysoptera x cyanoptera (F2 backcross),LAWA,
 ,,Black-and-white Warbler,Mniotilta varia,BAWW,1
 ,,Prothonotary Warbler,Protonotaria citrea,PROW,1
 ,,Swainson's Warbler,Limnothlypis swainsonii,SWWA,2
@@ -1167,8 +1173,11 @@ taxon_order,ebird_species_code,common_name,sci_name,four_letter_code,aba_rarity_
 ,,Blackpoll Warbler,Setophaga striata,BLPW,1
 ,,Black-throated Blue Warbler,Setophaga caerulescens,BTBW,1
 ,,Palm Warbler,Setophaga palmarum,PAWA,1
+,,Palm Warbler (Western),Setophaga palmarum palmarum,WPWA,
+,,Palm Warbler (Yellow),Setophaga palmarum hypochrysea,YPWA,
 ,,Pine Warbler,Setophaga pinus,PIWA,1
 ,,Yellow-rumped Warbler,Setophaga coronata,YRWA,1
+,,Yellow-rumped Warbler (Myrtle),Setophaga coronata coronata,MYWA,
 ,,Yellow-throated Warbler,Setophaga dominica,YTWA,1
 ,,Prairie Warbler,Setophaga discolor,PRAW,1
 ,,Grace's Warbler,Setophaga graciae,GRWA,1
