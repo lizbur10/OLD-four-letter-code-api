@@ -3,6 +3,10 @@ class Utility < ApplicationRecord
     # https://stackoverflow.com/questions/41314784/getting-unknownattributeerror-in-rake-using-csv-attribute-exists-in-rails-app
     # Use Number to export to CSV
 
+    # Ebird API link for possible future reference: https://documenter.getpostman.com/view/664302/S1ENwy59?version=latest#intro
+
+    # Downloaded ABA checklist spreadsheet from this page: https://www.aba.org/aba-checklist/
+    # Added BRWA, GCBT, LAWA, MYWA, SCJU, TRFL, WPWA, YPWA, YSFL by hand
     def self.readAbaCSV
         filename = File.join(Rails.root, 'app', 'csv', 'ABA_Checklist-8.0.6a.csv')
         CSV.foreach(filename, headers: true) do |row|
@@ -12,6 +16,7 @@ class Utility < ApplicationRecord
         end
     end
 
+    # Downloaded eBird taxonomy spreadsheet from this page: https://www.birds.cornell.edu/clementschecklist/download/?__hstc=60209138.6f747e6e23a2f1b7014cf372ca892894.1544132358313.1566237656917.1566240564794.714&__hssc=60209138.3.1566240564794&__hsfp=2467889448
     def self.readEbirdCSV
         filename = File.join(Rails.root, 'app', 'csv', 'eBird_Taxonomy_v2019.csv')
         CSV.foreach(filename, headers: true) do |row|
@@ -24,6 +29,7 @@ class Utility < ApplicationRecord
         end
     end
 
+    # Species list taken from sml-band list, updated through spring '18
     def self.addAppledoreFlag
         appledore_birds = ["ACFL", "ALFL", "AMGO", "AMRE", "AMRO", "BAOR", "BARS", "BAWW", "BBCU", "BBWA", "BCCH", "BEKI", "BGGN", "BHCO", "BHVI", "BITH", "BLBW", "BLGR", "BLJA", "BLPW", "BOBO", "BRCR", "BRTH", "BRWA", "BTBW", "BTNW", "BWHA", "BWWA", "CARW", "CAWA", "CCSP", "CEDW", "CERW", "CHSP", "CMWA", "COGR", "CONW", "COYE", "CSWA", "CWWI", "DICK", "DOWO", "EAKI", "EAPH", "EATO", "EAWP", "EUST", "EVGR", "FISP", "FOSP", "GCBT", "GCFL", "GCKI", "GCTH", "GRCA", "GRSP", "GWWA", "HAWO", "HERG", "HETH", "HOFI", "HOWA", "HOWR", "INBU", "KEWA", "LASP", "LAWA", "LEBI", "LEFL", "LESA", "LISP", "LOWA", "MALL", "MAWA", "MAWR", "MERL", "MODO", "MOWA", "MYWA", "NAWA", "NESP", "NOCA", "NOHA", "NOMO", "NOPA", "NOWA", "NSWO", "OCWA", "OROR", "OSFL", "OVEN", "PABU", "PHVI", "PISI", "PIWA", "PRAW", "PROW", "PUFI", "RBGR", "RBNU", "RBWO", "RCKI", "REVI", "RTHU", "RUBL", "RWBL", "SAVS", "SCJU", "SCTA", "SEPL", "SESP", "SORA", "SOSA", "SOSP", "SPSA", "SSHA", "SUTA", "SWSP", "SWTH", "TEWA", "TRES", "TRFL", "VEER", "WAVI", "WBNU", "WCSP", "WEKI", "WEVI", "WEWA", "WIWA", "WIWR", "WOTH", "WPWA", "WTSP", "YBCH", "YBCU", "YBFL", "YBSA", "YEWA", "YPWA", "YSFL", "YTVI", "YTWA"]
         appledore_birds.each do |bird_code|
